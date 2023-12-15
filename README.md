@@ -17,3 +17,29 @@ Step 2 - Data Preparation: In this section I will first wrangle all of the data 
 Step 3 - Exploratory Data Analysis: In this section I will analyse different aspects of the data, depending on what I am able to acquire from the IMDb website. My plan is to look into the relationships between film runtimes, genres and age ratings and how this affects IMDb Rating and also the profit the film makes.
 
 Step 4 - Film Recommender: This section will have the aim of creating a film recommender, where the user is able to input what genre, runtime and year of film they are looking for, and produce top 3 recommendations based off the IMDb Rating of the film.
+## Top 3 Data Insights
+
+- Film ratings seem to decrease over the past 20 years
+
+![Alt text](https://github.com/mattyh1010/IMDb-Web-Scraping-Project/blob/main/films_through_time.png)
+
+- More family friendly and less restrictive age ratings seem to perform better in terms of film rating and gross profit
+
+![Alt text](https://github.com/mattyh1010/IMDb-Web-Scraping-Project/blob/main/age_rating.png)
+
+- The same can be said for film unique genres and also genre pairs. More family and child friendly genres such as Family, Adventure and Animation perform the best in terms of film rating and gross profit
+
+![Alt text](https://github.com/mattyh1010/IMDb-Web-Scraping-Project/blob/main/genre.png)
+
+![Alt text](https://github.com/mattyh1010/IMDb-Web-Scraping-Project/blob/main/genre_pair.png)
+## Film Recommender
+
+Example of film recommender, which takes user input about genre, year and runtime of film the user wants to watch and gives the top 3 recommendations
+
+![Alt text](https://github.com/mattyh1010/IMDb-Web-Scraping-Project/blob/main/film_recommender.png)
+## Conclusions
+
+My main aim of upskilling in web scraping data was a success and I now have the ability to collect a wider variety of data for future projects.
+
+Some interesting insights from limited data collected, seems to be a pattern around films that are more family friendly and suitable for children performing better in terms of IMDb rating and gross profit. Perhaps cause for further analysis into the dip in film ratings in the past 20 years.
+
